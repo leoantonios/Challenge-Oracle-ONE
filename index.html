@@ -9,11 +9,25 @@
 </head>
 <body>
     <header>
-        <img src="img/Logo.png" alt="Logo Alura">
+        <img src="img/Logo.png" alt="Logo Alura" class="logo">
     </header>
     <main>
         <section>
             <textarea name="texto-entrada" id="texto-entrada" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="msj_observacion">
+                <p><img src="img/alert.png" alt="Observacion">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="buttons">
+                <button id="btn-encriptar">Encriptar</button>
+                <button id="btn-desencriptar">Desencriptar</button>
+            </div>
+            
+        </section>
+        <section>
+            <textarea name="texto-salida" id="texto-salida" cols="30" rows="10"></textarea>
+            <div>
+                <button id="btn-copiar">Copiar</button>
+            </div>
         </section>
     </main>
 </body>
