@@ -14,10 +14,9 @@ main {
     box-sizing: border-box;
 }
 
-/*BLOQUE 1*/
+/*=====BLOQUE 1==========*/
 #bloq1{
     width: 70%;
-    border: 1px solid;
     margin: 10px 50px;
     display: flex;
     flex-direction: column;
@@ -27,7 +26,7 @@ main {
 
 #texto-entrada{
     width: 70%;
-    border: 1px solid;
+    border: none;
     color: #0A3871;
     margin: 50px auto;
     margin-bottom: 10px;
@@ -82,22 +81,29 @@ button {
 }
 
 
-/*BLOQUE 2*/
+/*======BLOQUE 2========*/
 
 #bloq2{
-    width: 30%;
-    border: 1px solid;
-    margin: 10px 50px;
+    width: 20%;
+    border-radius: 24px;
+    margin: 0px 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    margin-right: 5%;
 }
 
 #texto-salida{
-    width: 70%;
-    border: 1px solid;
-    color: #0A3871;
+    width: 80%;
+    border: none;
+    background: url(/img/Muñeco.png);
+    color: black;
     margin: 50px auto;
     margin-bottom: 10px;
     text-transform: lowercase;
-    font-size: 2em;
+    font-size: 24px;
 }
 
 #texto-salida::placeholder{
@@ -109,3 +115,37 @@ button {
 #text-salida:focus{
     outline: none;
 }
+
+.buttons_2{
+    background: none;
+    text-align: center;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.mensaje_empty{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mensaje_empty p{
+    background: none;
+    text-align: center;
+    margin: 5px 20px;
+}
+
+.title_empty{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.paragraph_empty{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/*=======MEDIA QUERIES========*/
