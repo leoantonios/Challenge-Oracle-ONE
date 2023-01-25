@@ -1,5 +1,5 @@
 *{
-    background: #D8DFE8;
+    background: #F3F5FC;
     font-family: 'Inter', sans-serif;
 }
 
@@ -16,7 +16,7 @@ main {
 
 /*=====BLOQUE 1==========*/
 #bloq1{
-    width: 70%;
+    width: 60%;
     margin: 10px 50px;
     display: flex;
     flex-direction: column;
@@ -96,12 +96,12 @@ button {
 }
 
 #texto-salida{
+    height: 100%;
     width: 80%;
     border: none;
-    background: url(/img/Muñeco.png);
+    background: url(/img/Muñeco.png) no-repeat center;
     color: black;
-    margin: 50px auto;
-    margin-bottom: 10px;
+    margin: 15px auto 5px auto;
     text-transform: lowercase;
     font-size: 24px;
 }
@@ -149,3 +149,34 @@ textarea:focus{
 }
 
 /*=======MEDIA QUERIES========*/
+
+@media (max-width: 1200px) {
+    main{
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    #bloq1{
+        width: 100%;
+    }
+
+    #bloq2{
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    main{
+        flex-direction: column;
+    }
+
+    #bloq1{
+        margin: 0;
+    }
+
+    #bloq2{
+        margin: 0;
+    }
+
+
+}
