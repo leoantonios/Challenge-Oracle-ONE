@@ -42,7 +42,7 @@ function ocultarMensajeNoEncontrado() {
 function mostrarMensajeNoEncontrado() {
     texto_salida.value = "";
     mensajeEmpty[0].style.display = "block";
-    texto_salida.style.background = "url(img/Muñeco.png) no-repeat center";
+    texto_salida.style.background = "url(./img/Muñeco.png) no-repeat center";
     buttonCopiar[0].style.display = "none";
 }
 
