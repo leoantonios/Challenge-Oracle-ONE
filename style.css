@@ -104,7 +104,7 @@ button {
     height: 100%;
     width: 80%;
     border: none;
-    background: url(/img/Muñeco.png) no-repeat center;
+    background: url(img/Muñeco.png) no-repeat center;
     color: black;
     margin: 15px auto 5px auto;
     text-transform: lowercase;
