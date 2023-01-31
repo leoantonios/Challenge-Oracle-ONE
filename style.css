@@ -91,6 +91,7 @@ button {
     width: 20%;
     border-radius: 24px;
     margin: 0px 50px;
+    padding: 20px 0;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -183,6 +184,19 @@ textarea:focus{
     }
 
 
+}
+
+
+/*STATUS*/
+.error_msj{
+    color: red;
+    animation-name: bounce;
+    animation-duration: .5s;
+    animation-delay: 0.25s;
+}
+
+.normal_msj{
+    color: #0A3871;
 }
 
 /*ANIMACION*/

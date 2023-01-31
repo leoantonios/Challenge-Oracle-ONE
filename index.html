@@ -17,12 +17,12 @@
     <main>
         <section id="bloq1">
             <textarea name="texto-entrada" id="texto-entrada" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
-            <div class="msj_observacion">
+            <div class="msj_observacion" id="msj_info">
                 <p><img src="img/alert.png" alt="Observacion"> &nbsp;Solo letras minúsculas y sin acentos</p>
             </div>
             <div class="buttons">
                 <button id="btn-encriptar" onclick="encriptar()">Encriptar</button>
-                <button id="btn-desencriptar">Desencriptar</button>
+                <button id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
             </div>
             
         </section>
@@ -34,7 +34,7 @@
 
             </div>
             <div class="buttons_2">
-                <button id="btn-copiar" onclick="desencriptar()">Copiar</button>
+                <button id="btn-copiar" onclick="copiarTexto()">Copiar</button>
             </div>
         </section>
     </main>
