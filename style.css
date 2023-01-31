@@ -5,8 +5,8 @@
 
 .logo{
     width: 100px;
-    margin: 20px 40px;
-
+    margin: 50px;
+    margin-right: -20px;
 }
 
 main {
@@ -171,6 +171,10 @@ textarea:focus{
 }
 
 @media (max-width: 750px) {
+    .logo{
+        margin: 0;
+    }
+
     main{
         flex-direction: column;
     }
@@ -233,4 +237,24 @@ textarea:focus{
       transform: translateX(0px);
       timing-function: ease-in;
     }
-  }
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#titulo_encriptador {
+    font-family: 'Space Mono', monospace;
+    font-size: 3em;
+    color: #0A3871;
+    padding: 10px;
+    border-radius: clamp(0.4rem, 0.75vw, 1rem);
+    
+}
+  
+#titulo_encriptador:hover {
+    background-color: white;
+    color: black;
+}
