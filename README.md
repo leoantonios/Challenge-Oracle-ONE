@@ -11,4 +11,5 @@ Las "llaves" de encriptación que se utilizaron son las siguiente:
 -   La letra  **"u"**  es convertida para  **"ufat"**
 
 Si deseas probarlo haz click en el siguiente enlace: [Ir al Encriptador](https://leoantonios.github.io/Challenge-Oracle-ONE/)
+
 Un encriptador con un nivel mas de seguridad esta en desarrollo y pronto sera agregado en las opciones.
